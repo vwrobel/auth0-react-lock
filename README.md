@@ -107,7 +107,7 @@ The example to this component is implicit to the project.
 
 ```bash
 # Install webpack-dev-server
-npm install --save-dev webpack-dev-server
+npm install --g webpack-dev-server
 
 # Clone
 git clone https://github.com/auth0/auth0-react-lock
