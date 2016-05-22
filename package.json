@@ -1,6 +1,6 @@
 {
   "name": "auth0-react-lock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Component for Auth0's Lock.js",
   "main": "./src/components/lock.component",
   "scripts": {
