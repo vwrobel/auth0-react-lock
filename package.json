@@ -1,6 +1,6 @@
 {
   "name": "auth0-react-lock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Component for Auth0's Lock.js",
   "main": "./src/components/lock.component",
   "scripts": {
@@ -58,6 +58,8 @@
     "react": "^0.14.3"
   },
   "browserify": {
-    "transform": ["babelify"]
+    "transform": [
+      "babelify"
+    ]
   }
 }
