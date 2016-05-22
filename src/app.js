@@ -9,15 +9,9 @@ let div = document.createElement('div');
 document.body.appendChild(div);
 
 class App extends React.Component {
-  constructor(props) {
-      super(props);
-      this.state = {
-        isShown: false
-      }
-  }
 
   componentDidMount() {
-    this.refs.lock1.getLock();
+    this.lock = this.refs.lock1.getLock();
   }
 
   showLock(){
