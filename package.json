@@ -1,0 +1,60 @@
+{
+  "name": "auth0-react-lock",
+  "version": "1.0.0",
+  "description": "React Component for Auth0's Lock.js",
+  "main": "src/components/lock.component.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auth0/auth0-react-lock.git"
+  },
+  "keywords": [
+    "React",
+    "Auth0",
+    "Lock",
+    "Component"
+  ],
+  "author": "Auth0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auth0/auth0-react-lock/issues"
+  },
+  "homepage": "https://github.com/auth0/auth0-react-lock#readme",
+  "devDependencies": {
+    "babel-core": "^6.3.2",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "dotenv": "^2.0.0",
+    "expect": "^1.13.0",
+    "grunt": "^1.0.1",
+    "grunt-karma": "^1.0.0",
+    "grunt-webpack": "^1.0.11",
+    "json-loader": "^0.5.4",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-cli": "0.1.1",
+    "karma-coverage": "^1.0.0",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-mocha": "^0.2.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.6",
+    "karma-webpack": "^1.7.0",
+    "matchdep": "^1.0.1",
+    "mocha": "^2.3.4",
+    "phantomjs-prebuilt": "^2.1.7",
+    "react-addons-test-utils": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "sinon": "^1.17.4",
+    "sinon-spy-react": "^2.0.0",
+    "transform-loader": "^0.2.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "auth0-lock": "^9.2.1",
+    "react": "^0.14.3"
+  }
+}

@@ -1,0 +1,8 @@
+Gruntfile.js
+index.html
+karma.conf.js
+tests.webpack.js
+webpack.config.jspn
+src/__tests__
+src/app.js
+src/components/__tests__
