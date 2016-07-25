@@ -28,6 +28,7 @@
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-react": "^6.1.18",
     "dotenv": "^2.0.0",
+    "exenv": "^1.2.1",
     "expect": "^1.13.0",
     "grunt": "^1.0.1",
     "grunt-karma": "^1.0.0",
