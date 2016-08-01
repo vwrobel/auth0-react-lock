@@ -1,5 +1,5 @@
 {
-  "name": "auth0-react-lock",
+  "name": "auth0-react-lock-vw",
   "version": "1.0.2",
   "description": "React Component for Auth0's Lock.js",
   "main": "./src/components/lock.component",
