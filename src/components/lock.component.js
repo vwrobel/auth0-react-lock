@@ -1,25 +1,17 @@
 import React from 'react';
 import Auth0Lock from 'auth0-lock';
-import ExecutionEnvironment from 'exenv';
 
 class Lock extends React.Component {
 
-
-  constructor(props){
-    super(props);
-    const clientID = props.clientID || props.clientId;
+  componentDidMount () {
+    var clientID = this.props.clientID || this.props.clientId;
     if(!clientID) {
       throw Error("Client ID is strictly required");
     }
-    const domain = props.domain;
-    
-    if(ExecutionEnvironment.canUseViewport){
-      this.lock = new Auth0Lock(clientID, domain);
-      this.hash = this.lock.parseHash();
-      this.handleHash(this.hash, props.hashHandler);
-    }
-    this.showLock = this.showLock.bind(this);
-    this.getLock = this.getLock.bind(this);
+    var domain = this.props.domain;
+    this.lock = new Auth0Lock(clientID, domain);
+    this.hash = this.lock.parseHash();
+    this.handleHash(this.hash, this.props.hashHandler);
   }
 
   handleHash(hash, handlerFn) {
